@@ -3,7 +3,6 @@ let contacts = [
     name: "Satoro Gojo",
     img: "https://dimensaosete.com.br/static/7fc311549694666167a49cdb0fb1293c/2493a/gojo.webp",
     info: "Voce é fraco",
-    
   },
   {
     name: "Sukuna",
