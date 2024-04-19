@@ -5,6 +5,7 @@ import contacts from "./contacts";
 import "./style.css";
 
 function App() {
+  
   return (
     <div>
       <h1 className="heading">Personagens</h1>
