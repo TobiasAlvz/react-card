@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import contacts from "./contacts";
+import Avatar from "./Avatar";
 
 import "./style.css";
 
@@ -8,6 +9,7 @@ function App() {
   return (
     <div>
       <h1 className="heading">Personagens</h1>
+      <Avatar img="https://i1.sndcdn.com/artworks-C5gl8UDRFK7ydaFh-MkhgaA-t500x500.jpg" />
       <Card
         name={contacts[0].name}
         img={contacts[0].img}
