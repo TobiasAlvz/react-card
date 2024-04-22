@@ -5,7 +5,7 @@ import Avatar from "./Avatar";
 import "./style.css";
 
 function creatCard(contact) {
-  return <Card name={contact.name} img={contact.img} info={contact.info} />;
+  return <Card id={contact.id} name={contact.name} img={contact.img} info={contact.info} />;
 }
 
 function App() {
